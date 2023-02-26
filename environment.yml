@@ -1,0 +1,17 @@
+name: cheese
+
+dependencies:
+  - python=3.8
+  - datasets
+  - gradio
+  - markupsafe
+  - pandas
+  - joblib
+  - jinja2
+  - altair
+  - rabbitmq-server
+  - pip
+  - pip:
+      - b-rabbit
+channels:
+  - conda-forge
